@@ -1,0 +1,99 @@
+body {
+    background-image: url(../images/fabric_of_squares_gray.png)
+}
+#backgroundimage {
+    height: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+}
+
+Header {
+    font-family: 'Georgia', Times, 
+    Times New Roman, serif;
+}
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+}
+li a {
+    display: block;
+    color: #777777; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li {
+      float: left; 
+  }
+  div {
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      width: 960px;
+      margin: auto; 
+      background-color: white;  
+      
+
+  }
+  h1 {
+      color:#4aaaa5
+
+  }
+
+  hr {
+    border: .5px solid #777777; 
+    align: center; 
+    width: 90%; 
+    
+  }
+  Footer {
+      padding: 20px; 
+      background: #777777; 
+      border-top: 5px solid #4aaaa5; 
+      position: fixed; 
+      left: 0; 
+      bottom: 0; 
+      width: 100%; 
+
+  }
+  p {
+    color: #777777; 
+    line-height: 1.6;
+  }
+
+  #nameHeading{
+    margin-left: 25%; 
+    background-color: #4aaaa5; 
+  }
+  
+  #aheading {
+      color:rgb(248, 248, 248); 
+  }
+
+#about {
+      float: right;
+      font-size: 12px; 
+      border-right: 1px solid #777777;  
+  }
+#portfolio {
+    float: right;
+    font-size: 12px; 
+    
+}
+#contact {
+    float: right; 
+    font-size: 12px;
+    margin-right: 25% 
+}
+#backgroundimage {
+    width: 150px; 
+    height: 150px; 
+    float: left; 
+    margin-right: 10px; 
+}
