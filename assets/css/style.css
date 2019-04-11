@@ -41,7 +41,8 @@ li a {
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       width: 960px;
       margin: auto; 
-      background-color: white;  
+      background-color: white; 
+       
       
 
   }
@@ -55,8 +56,8 @@ li a {
 
   hr {
     border: 1px solid #777777; 
-    align: center; 
-    width: 90%; 
+    margin-left: 10px; 
+    margin-right: 10px; 
     opacity: .5; 
     
   }
@@ -69,6 +70,8 @@ li a {
       left: 0; 
       bottom: 0; 
       width: 100%; 
+      text-align: center; 
+      color: white; 
 
   }
    
@@ -80,14 +83,14 @@ li a {
     margin-bottom: 5px;   
   }
   .nameEmail {
-    width: 25%; 
+    width: 92%; 
     margin-top: 2px; 
 }
 .textarea{
 
-  width: 25%;
+  width: 90%;
   height: 100px;
-  border: .1px inset #777777;  
+  border: inset .1px #777777;  
   background-color: white;
   font-size: 11px;  
   color: #777777; 
@@ -97,7 +100,7 @@ li a {
 }
 
   #nameHeading{
-    margin-left: 20%; 
+    margin-left: 12%; 
     background-color: #4aaaa5; 
   }
   
@@ -144,4 +147,39 @@ li a {
   margin-bottom: 25px; 
   margin-top: 15px; 
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.portimg {
+  width: 150px; 
+  height: 150px; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.relative {
+  position: relative;
+}
+
+.imbox {
+  position: absolute;
+  bottom: 15px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  background: #4aaaa5
 }
